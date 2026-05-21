@@ -82,3 +82,19 @@ CREATE TABLE saas_analytics.incident_raw (
     resolved_at DATETIME,
     closed_at DATETIME
 );
+
+--- The process table records how customer issues are handled internally.
+
+CREATE TABLE saas_analytics.process_raw (
+    case_id VARCHAR(50),
+    variant VARCHAR(50),
+    priority VARCHAR(20),
+    reporter VARCHAR(100),
+    timestamp DATETIME,
+    event VARCHAR(100),
+    issue_type VARCHAR(100),
+    resolver VARCHAR(100),
+    report_channel VARCHAR(50),
+    short_description TEXT,
+    customer_satisfaction INT
+);
