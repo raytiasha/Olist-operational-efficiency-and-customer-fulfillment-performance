@@ -41,3 +41,44 @@ CREATE TABLE saas_analytics.customer_raw (
     CLTV INT,
     ChurnReason TEXT
 );
+
+--- The incident log table records customer issues, how they were handled by support, and the time taken to resolve them.
+
+CREATE TABLE saas_analytics.incident_raw (
+    number VARCHAR(50),
+    incident_state VARCHAR(50),
+    active BOOLEAN,
+    reassignment_count INT,
+    reopen_count INT,
+    sys_mod_count INT,
+    made_sla BOOLEAN,
+    caller_id VARCHAR(50),
+    opened_by VARCHAR(50),
+    opened_at DATETIME,
+    sys_created_by VARCHAR(50),
+    sys_created_at DATETIME,
+    sys_updated_by VARCHAR(50),
+    sys_updated_at DATETIME,
+    contact_type VARCHAR(50),
+    location VARCHAR(100),
+    category VARCHAR(100),
+    subcategory VARCHAR(100),
+    u_symptom VARCHAR(100),
+    cmdb_ci VARCHAR(100),
+    impact VARCHAR(20),
+    urgency VARCHAR(20),
+    priority VARCHAR(20),
+    assignment_group VARCHAR(100),
+    assigned_to VARCHAR(100),
+    knowledge BOOLEAN,
+    u_priority_confirmation BOOLEAN,
+    notify VARCHAR(50),
+    problem_id VARCHAR(50),
+    rfc VARCHAR(50),
+    vendor VARCHAR(100),
+    caused_by VARCHAR(50),
+    closed_code VARCHAR(100),
+    resolved_by VARCHAR(100),
+    resolved_at DATETIME,
+    closed_at DATETIME
+);
