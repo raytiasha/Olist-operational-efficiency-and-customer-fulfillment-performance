@@ -1,6 +1,6 @@
 -- Customers table stores user information
 /*
-  CSV has blank values, and hidden non-numeric. Fix:
+  CSV contains missing (blank) and non-numeric values. These rows/values were handled during data import to prevent type conversion errors and ensure proper loading into MySQL.
       1. TRIM() - Removes: spaces, " ", tabs, hidden characters.
       2. NULLIF() - Converts empty values → NULL.
   */
