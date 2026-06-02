@@ -15,4 +15,4 @@ The business questions and supporting KPIs that guide this analysis are outlined
 
 ---
 
-For more of my projects and data journey, visit my [Portfolio](https://raytiasha.github.io/Portfolio/).
+For more of my projects and data journey, visit my [Portfolio](https://github.com/raytiasha/My-Portfolio).
