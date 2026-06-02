@@ -1,14 +1,19 @@
 
-1. How has order demand changed over time?
+1. How has order demand changed over time?<br>
    Understand workload trends, using metrics such as Monthly orders, Monthly revenue and Growth rate. (Line chart/Monthly trend)
-2. Which products/categories drive most revenue and order volume?
+2. Which products/categories drive most revenue and order volume?<br>
    Understand where to focus inventory and fulfillment efforts, using metrics such as Revenue by category, Orders by category, and Top products. (Pareto chart/Bar   chart)
-3. How efficient is the delivery process?
+3. How efficient is the delivery process?<br>
    Delivery performance directly affects customer satisfaction, track using metrics such as Average delivery time, On-time delivery%, and Delivery time by region.   (Histogram/Regional comparison chart)
-4. Which products/categories have the highest return rates?
+4. Which products/categories have the highest return rates?<br>
    Returns increase operational costs, track using metrics such as Return rate, Returned revenue, and Returns by category. (Bar chart/Heatmap)
-5. What operational improvements can be recommended based on these findings?
+5. What operational improvements can be recommended based on these findings?<br>
    Deriving actionable recommendations from Ques 1-4.
+
+   **KPI definition**
+   1. Total Orders = Number of unique orders.
+   2. Revenue = Total sales value.
+   3. Average delivery time = Average number of days between purchase and delivery.
 
 **Other business questions that Operations Manager would likely care about are:**
 
