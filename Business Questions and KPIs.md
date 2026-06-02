@@ -12,26 +12,26 @@
 
 ## Detailed Qustion Breakdown
 
-1. Order fulfillment
+### Order fulfillment
 1. How many orders are received daily/weekly/monthly?
 2. What is the trend over time?
 3. Which regions generate the most orders?
 4. Order processing time?
 5. Regional fulfillment percentage?
 
-2. Delivery performance
+### Delivery performance
 1. Average delivery time?
 2. Which regions have longest delivery times?
 3. Late delivery percentage?
 
-3. Inventory availability</u>
+### Inventory availability</u>
 1. Top-selling products?
 2. Slow-moving products?
 3. Stockout-prone products?
 4. Overstocked products?
 5. Inventory turnover analysis.
    
-4. Returns management</u>
+### Returns management</u>
 1. Return rate by category?
 2. Most common return reasons?
 3. Products with highest returns?
@@ -40,7 +40,7 @@
 5. Cost per order?
 6. High-cost customers or locations?
 
-5. Customer Service from an operations perspective
+### Customer Service from an operations perspective
 1. Complaint rate?
 2. Refund rate?
 3. Repeat operational issues?
