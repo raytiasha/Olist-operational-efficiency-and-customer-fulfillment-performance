@@ -18,6 +18,8 @@ The business questions and supporting KPIs that guide this analysis are outlined
 Source: Brazilian E-Commerce Public Dataset by Olist (Kaggle)<br>
 [View Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
+## Dataset Structure
+
 ---
 
 For more of my projects and data journey, visit my [Portfolio](https://github.com/raytiasha/My-Portfolio).
