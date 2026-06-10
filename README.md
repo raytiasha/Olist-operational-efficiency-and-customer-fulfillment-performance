@@ -13,10 +13,6 @@ The primary stakeholder for this project is the Operations Manager, who is respo
 
 The business questions and supporting KPIs that guide this analysis are outlined [here](https://github.com/raytiasha/WIP_Project/blob/main/Business%20Questions%20and%20KPIs.md).
 
-## Data Overview
-
-
-
 ## Dataset Structure
 
 ---
