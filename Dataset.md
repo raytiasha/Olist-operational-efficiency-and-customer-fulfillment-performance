@@ -14,21 +14,11 @@
 ---
 
 
-| Business Question              | Tables Needed    |
-| ------------------------------ | ---------------- |
-| Demand vs Performance          | orders           |
-| Fulfillment Bottlenecks        | orders           |
-| Delivery Delays & Satisfaction | orders + reviews |
-
-
----
-
-
 | Question                          | Tables Needed    |   Because it contains |
 | --------------------------------- | ---------------- | --------------------- |
-| How has demand changed over time?                    | orders           | order_purchase_timestamp |
-| Which fulfillment stages contribute to delays?       | orders           | purchase date, approval date, carrier date, delivery date, estimated date |
-| How do delays affect customer satisfaction?          | orders + reviews | delay information + review score |
+| How has demand changed over time? (Demand = orders placed)              | orders           | order_purchase_timestamp |
+| Which fulfillment stages contribute to delays? (need timestamp at each stage)      | orders           | purchase date, approval date, carrier date, delivery date, estimated date |
+| How do delays affect customer satisfaction? (To calculate delays: delivered_customer_date & estimated_delivery_date is needed)         | orders + reviews | delay information + review score |
 
 
 ---
