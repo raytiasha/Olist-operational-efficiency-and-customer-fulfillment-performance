@@ -44,3 +44,12 @@ This analysis aims to answer the following operational questions:
 
 
 These three questions were selected because they examine the end-to-end relationship between demand, operational execution, and customer outcomes. Together, they help determine whether increasing order volumes contribute to operational inefficiencies, identify where fulfillment bottlenecks occur, and evaluate the impact of delivery performance on customer satisfaction. Answering these questions enables the Operations Manager to prioritize operational improvements that enhance efficiency and customer experience.
+
+## Project Success Criteria
+
+The project will be considered successful if it:
+
+1. Identifies key demand patterns that affect operational performance.
+2. Pinpoints the primary sources of delivery delays within the fulfillment process.
+3. Quantifies the impact of delivery delays on customer satisfaction.
+4. Provides actionable recommendations for improving operational efficiency and customer experience.
