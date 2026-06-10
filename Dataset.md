@@ -11,6 +11,9 @@
 | order_delivered? | Delivery timestamps ( in orders table)        |
 
 
+---
+
+
 | Business Question              | Tables Needed    |
 | ------------------------------ | ---------------- |
 | Demand vs Performance          | orders           |
